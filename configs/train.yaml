@@ -1,0 +1,13 @@
+# Main configuration file
+defaults:
+  - _self_
+  - hydra: default
+  - data: default
+  - model: default
+  - cross_validate: default
+# task name, determines output directory path
+task_name: "train"
+# seed for random number generators in numpy and python.random
+seed: 1234
+# Where to save the model checkpoints
+checkpoint_dir: "models"

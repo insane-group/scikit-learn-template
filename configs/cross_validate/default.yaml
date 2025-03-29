@@ -1,0 +1,5 @@
+_target_: sklearn.model_selection.cross_validate
+scoring: neg_mean_absolute_percentage_error
+cv: 5
+return_train_score: true
+n_jobs: -1

@@ -1,0 +1,5 @@
+# Lasso regression model configuration
+defaults:
+  - default
+model_type: "lasso"
+alpha: 1.0 # Regularization strength

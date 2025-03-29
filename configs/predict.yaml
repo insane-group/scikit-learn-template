@@ -1,0 +1,15 @@
+# Main configuration file
+defaults:
+  - _self_
+  - hydra: default
+  - data: default
+  - model: default
+  - metrics: default
+# task name, determines output directory path
+task_name: "predict"
+# seed for random number generators in numpy and python.random
+seed: 1234
+# Load the model from a checkpoint
+checkpoint: models/model-2025-04-05_16-46-14.joblib
+# The file to save the predictions to
+predictions_file: "predictions.csv"

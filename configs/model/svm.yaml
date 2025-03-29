@@ -1,0 +1,7 @@
+# SVM model configuration
+defaults:
+  - default
+model_type: "svm"
+kernel: "rbf"
+C: 1.0
+epsilon: 0.1
