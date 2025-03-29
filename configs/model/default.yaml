@@ -1,0 +1,4 @@
+# Default model configuration
+_target_: project.models.create_pipeline
+model_type: "linear" # Options: linear, lasso, random_forest, svm
+scale_features: true

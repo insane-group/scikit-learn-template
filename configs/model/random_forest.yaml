@@ -1,0 +1,8 @@
+# Random Forest model configuration
+defaults:
+  - default
+model_type: "random_forest"
+n_estimators: 100
+max_depth: null
+min_samples_split: 2
+min_samples_leaf: 1

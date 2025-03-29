@@ -1,0 +1,3 @@
+root_mean_squared_error:
+  _target_: sklearn.metrics.root_mean_squared_error
+  multioutput: uniform_average

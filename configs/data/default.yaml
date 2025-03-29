@@ -1,0 +1,17 @@
+# Data configuration
+_target_: project.data.module.DataModule
+# Dataset URLs
+train_dataset_url: "https://raw.githubusercontent.com/billsioros/predicting-methane-absorption-in-porous-material/refs/heads/master/data/train.csv"
+test_dataset_url: "https://raw.githubusercontent.com/billsioros/predicting-methane-absorption-in-porous-material/refs/heads/master/data/test.csv"
+# Data processing options
+# Target variable
+target_variable: "highUptake_mol"
+# Features to exclude for high correlation subset
+exclude_features:
+  - "alpha_deg"
+  - "beta_deg"
+  - "num_fluorine"
+  - "num_sulfur"
+  - "gamma_deg"
+  - "num_silicon"
+drop_na: true

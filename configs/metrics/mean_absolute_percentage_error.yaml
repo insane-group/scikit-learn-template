@@ -1,0 +1,3 @@
+mean_absolute_percentage_error:
+  _target_: sklearn.metrics.mean_absolute_percentage_error
+  multioutput: uniform_average
