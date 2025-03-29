@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://insane-group.github.io/scikit-learn-template/</loc>
+         <lastmod>2025-03-29</lastmod>
+    </url>
+    <url>
+         <loc>https://insane-group.github.io/scikit-learn-template/CODE_OF_CONDUCT/</loc>
+         <lastmod>2025-03-29</lastmod>
+    </url>
+    <url>
+         <loc>https://insane-group.github.io/scikit-learn-template/CONTRIBUTING/</loc>
+         <lastmod>2025-03-29</lastmod>
+    </url>
+    <url>
+         <loc>https://insane-group.github.io/scikit-learn-template/LICENSE/</loc>
+         <lastmod>2025-03-29</lastmod>
+    </url>
+    <url>
+         <loc>https://insane-group.github.io/scikit-learn-template/welcome/</loc>
+         <lastmod>2025-03-29</lastmod>
+    </url>
+    <url>
+         <loc>https://insane-group.github.io/scikit-learn-template/code/models/mnist/</loc>
+         <lastmod>2025-03-29</lastmod>
+    </url>
+</urlset>
